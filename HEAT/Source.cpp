@@ -1,6 +1,6 @@
 #include <iostream>
 
-class Heat {
+class Heat {//source class
 public:
 	double num;
 	void Kelvin() {
