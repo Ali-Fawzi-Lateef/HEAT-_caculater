@@ -15,12 +15,12 @@ public:
 	}
 	void CelsiusF() {//function for changing the haet from fahrenheit to Celsius
 		std::cout << "Enter the value: ";
-		std::cin >> num;
+		std::cin >> num;//input from the user
 		std::cout << (num - 32) / 1.8 << "C\n\a";
 	}
 	void CelsiusK() {//function for changing the haet from Kelvin to Celsius
 		std::cout << "Enter the value: ";
-		std::cin >> num;
+		std::cin >> num;//input from the user
 		std::cout << num - 273.15 << "C\n\a";
 	}
 };
