@@ -6,22 +6,22 @@ public:
 	void Kelvin() {         //function for changing the haet from Celsius to Kelvin
 		std::cout << "Enter the value: ";
 		std::cin >> num;//input from the user
-		std::cout << num + 273.15 << "K\n\a";
+		std::cout << num + 273.15 << "K\n\a";   // \a is for alarm sound
 	}
 	void fahrenheit() {     //function for changing the haet from Celsius to fahrenheit
 		std::cout << "Enter the value: ";
 		std::cin >> num;//input from the user
-		std::cout << (num * 1.8) + 32 << "F\n\a";
+		std::cout << (num * 1.8) + 32 << "F\n\a";// \a is for alarm sound
 	}
 	void CelsiusF() {       //function for changing the haet from fahrenheit to Celsius
 		std::cout << "Enter the value: ";
 		std::cin >> num;//input from the user
-		std::cout << (num - 32) / 1.8 << "C\n\a";
+		std::cout << (num - 32) / 1.8 << "C\n\a";// \a is for alarm sound
 	}
 	void CelsiusK() {       //function for changing the haet from Kelvin to Celsius
 		std::cout << "Enter the value: ";
 		std::cin >> num;//input from the user
-		std::cout << num - 273.15 << "C\n\a";
+		std::cout << num - 273.15 << "C\n\a";    // \a is for alarm sound
 	}
 };
 void options() {//function for showing options on the console
@@ -34,8 +34,8 @@ void options() {//function for showing options on the console
 }
 int main()
 {
-	system("color 4");
-	Heat HEAT;
+	system("color 4");//set screen colour to RED
+	Heat HEAT;//naming the class a unique name
 	int opt;
 	do {
 		options();
