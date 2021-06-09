@@ -39,8 +39,8 @@ int main()
 	int opt;
 	do {
 		options();
-		std::cin >> opt;
-		switch (opt) {
+		std::cin >> opt;//input from the user
+		switch (opt) {  //switching options
 		case 1:
 			HEAT.Kelvin();
 			break;
@@ -54,13 +54,13 @@ int main()
 			HEAT.CelsiusK();
 			break;
 		case 0:
-			std::cout << "GoodBye ^_^\a";
+			std::cout << "GoodBye ^_^\a";//if the user chosen to EXIT. // \a for alarm sound
 			break;
 		default:
 			std::cout << "invalid selection, please try again ^_^\n\a";
 			break;
 		}
-	} while (opt != 0);
+	} while (opt != 0); //if the user entered 0 the program will EXIT.
 
 	return 0;
 }
