@@ -54,7 +54,7 @@ int main()
 			HEAT.CelsiusK();
 			break;
 		case 0:
-			std::cout << "GoodBye ^_^\a";//if the user chosen to EXIT. // \a for alarm sound
+			std::cout << "GoodBye ^_^\a";//if the user chosen to EXIT.  // \a for alarm sound.
 			break;
 		default:
 			std::cout << "invalid selection, please try again ^_^\n\a";
