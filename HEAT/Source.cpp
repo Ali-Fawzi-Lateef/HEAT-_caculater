@@ -40,18 +40,18 @@ int main()
 	do {
 		options();
 		std::cin >> opt;//input from the user
-		switch (opt) {//switching options
+		switch (opt) {//switching options.
 		case 1:
-			HEAT.Kelvin();//invoke the function
+			HEAT.Kelvin();//invoke the function.
 			break;
 		case 2:
-			HEAT.fahrenheit();//invoke the function
+			HEAT.fahrenheit();//invoke the function.
 			break;
 		case 3:
-			HEAT.CelsiusF();//invoke the function
+			HEAT.CelsiusF();//invoke the function.
 			break;
 		case 4:
-			HEAT.CelsiusK();//invoke the function
+			HEAT.CelsiusK();//invoke the function.
 			break;
 		case 0:
 			std::cout << "GoodBye ^_^\a";//if the user chosen to EXIT.  // \a for alarm sound.
