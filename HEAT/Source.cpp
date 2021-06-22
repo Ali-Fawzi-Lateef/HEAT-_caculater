@@ -8,23 +8,23 @@ public:
 		std::cin >> num;//input from the user.
 		std::cout << num + 273.15 << "K\n\a";// \a is for alarm sound.
 	}
-	void fahrenheit() {//function for changing the haet from Celsius to fahrenheit
+	void fahrenheit() {//function for changing the haet from Celsius to fahrenheit.
 		std::cout << "Enter the value: ";
-		std::cin >> num;//input from the user
-		std::cout << (num * 1.8) + 32 << "F\n\a";// \a is for alarm sound
+		std::cin >> num;//input from the user.
+		std::cout << (num * 1.8) + 32 << "F\n\a";// \a is for alarm sound.
 	}
-	void CelsiusF() {//function for changing the haet from fahrenheit to Celsius
+	void CelsiusF() {//function for changing the haet from fahrenheit to Celsius.
 		std::cout << "Enter the value: ";
-		std::cin >> num;//input from the user
-		std::cout << (num - 32) / 1.8 << "C\n\a";// \a is for alarm sound
+		std::cin >> num;//input from the user.
+		std::cout << (num - 32) / 1.8 << "C\n\a";// \a is for alarm sound.
 	}
-	void CelsiusK() {//function for changing the haet from Kelvin to Celsius
+	void CelsiusK() {//function for changing the haet from Kelvin to Celsius.
 		std::cout << "Enter the value: ";
-		std::cin >> num;//input from the user
-		std::cout << num - 273.15 << "C\n\a";// \a is for alarm sound
+		std::cin >> num;//input from the user.
+		std::cout << num - 273.15 << "C\n\a";// \a is for alarm sound.
 	}
 };
-void options() {//function for showing options on the console
+void options() {//function for showing options on the console.
 	std::cout << "\t>HEAT Measurement<\n";
 	std::cout << "Press 1 to caculate Celsius to Kelvin\n";
 	std::cout << "Press 2 to caculate Celsius to fahrenheit\n";
@@ -34,12 +34,12 @@ void options() {//function for showing options on the console
 }
 int main()
 {
-	system("color 4");//set screen colour to RED
-	Heat HEAT;//naming the class a unique name
+	system("color 4");//set screen colour to RED.
+	Heat HEAT;//naming the class a unique name.
 	int opt;
 	do {
 		options();
-		std::cin >> opt;//input from the user
+		std::cin >> opt;//input from the user.
 		switch (opt) {//switching options.
 		case 1:
 			HEAT.Kelvin();//invoke the function.
