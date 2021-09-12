@@ -8,7 +8,7 @@ public:
 		std::cin >> num;//input from the user.
 		std::cout << num + 273.15 << "K\n\a";// \a is for alarm sound.
 	}
-	void fahrenheit() {//function for changing the haet from Celsius to fahrenheit
+	void fahrenheit() {//function for changing the haet from Celsius to fahrenheit.
 		std::cout << "Enter the value: ";
 		std::cin >> num;//input from the user
 		std::cout << (num * 1.8) + 32 << "F\n\a";// \a is for alarm sound.
