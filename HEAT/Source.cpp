@@ -2,7 +2,7 @@
 
 class Heat {//source class.
 public:
-	double num;//declearing num
+	double num;//declearing num.
 	void Kelvin() {//function for changing the haet from Celsius to Kelvin
 		std::cout << "Enter the value: ";
 		std::cin >> num;//input from the user
