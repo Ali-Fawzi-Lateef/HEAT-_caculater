@@ -1,6 +1,6 @@
 #include <iostream>
 
-class Heat {//source class
+class Heat {//source class.
 public:
 	double num;//declearing num
 	void Kelvin() {//function for changing the haet from Celsius to Kelvin
